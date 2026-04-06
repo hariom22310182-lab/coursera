@@ -1,0 +1,4 @@
+curl -s https://api.github.com/repos/hariom22310182-lab/coursera/pulls/1 | grep -E '"html_url"|"number"|"merged_at"|"head"|"repo"|"full_name"|"fork"|"ref"'
+
+# Terminal Output:
+{"html_url":"https://github.com/hariom22310182-lab/coursera/pull/1","number":1,"merged_at":null,"head":{"repo":{"full_name":"some-fork/your-repo-name","fork":true},"ref":"your-branch-name"}}
