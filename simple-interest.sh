@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Simple Interest Calculator
-# SI = (Principal * Rate * Time)/100
+# SI = (Principal * Rate * Time)/100 where rate is in percentage not divided by 100
 
 read -rp "Enter principal: " principal
 read -rp "Enter rate of interest: " rate
