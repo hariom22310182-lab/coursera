@@ -1,0 +1,17 @@
+# CURL Command and Output
+
+## Command
+```bash
+curl -s https://api.github.com/repos/hariom22310182-lab/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"parent"'
+```
+
+## Output
+```json
+{
+  "full_name": "hariom22310182-lab/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
+```
